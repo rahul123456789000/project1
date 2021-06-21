@@ -1,0 +1,147 @@
+ 
+.container{
+   width: 100%;
+   height: 105vh;
+    background: url("img5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(120deg,rgba(104, 58, 183, 0.301),rgba(103,58,183,0.5)),url("img5.jpg");
+padding-left: 1%;
+padding-right: 1%;
+
+}
+.logo{
+   height: 12%;
+    display: flex;
+align-items: center;
+}
+.logo1{
+    width: 100px;
+cursor: pointer;
+}
+.logo h1{
+    text-align: center;
+    margin-left: 500px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.logo2{
+   cursor: pointer;
+   margin-left: 400px;
+}
+.middlesection1 h1{
+   color: lightcyan;
+    text-align:left;
+}
+
+.mywork{
+    display: flex;
+    height: 70%;
+    align-items: center;
+}
+.collegephotos{
+    flex-basis: 50%;
+   
+}
+  .collegephotos p{
+    font-size: 16px;
+    text-decoration: none;
+    color:#fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.mywork .collegephotos h1{
+    color: #fff;
+   font-size: 100px;
+    font-weight: 700;
+}
+.college{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+transition: transform 0.5s;
+
+}
+
+
+.college1{
+background-image: url("collegephoto1.jpeg");
+
+}
+
+.college2{
+    background-image: url("collegephoto2.jpg");
+    }
+    
+    .college3{
+        background-image: url("collegephoto3.jpeg");
+        }
+        
+        .college4{
+            background-image: url("collegephoto4.jpeg");
+        }
+        .college5{
+            background-image: url("c5.jpg");
+        }
+  .college6{
+      background-image: url("c6.jpg");
+  }
+.college:hover{
+    transform: translateY(-10px);
+
+
+}
+ h5{
+  
+     color: #fff;
+     text-shadow: 0 0 5px #999;
+ }
+   
+
+.collegephotos .college p{
+ margin-top: 190px;
+ font-size: 10px;
+ color: ivory;
+  text-align: center;
+  font-weight: 900;
+}
+
+.last {
+    text-align: center;
+}
+h1{
+    color:#8A2BE2 ;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+
+.sapp a{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #9370DB;
+   /* box-shadow: 0 0 20px 10px rgba(0,0,0,0.5);*/
+    margin:0 30px;
+    border-radius: 50%;
+}
+
+.sapp a .fab{
+    font-size: 30px;
+    line-height: 80px;
+}
+
